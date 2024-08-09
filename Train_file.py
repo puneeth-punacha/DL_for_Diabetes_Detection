@@ -21,9 +21,10 @@ model= Sequential()
 
 #Layer 1
 model.add(Dense(12, input_dim= 8, activation= 'relu'))
-
 #Layer 2
-model.add(Dense(10, activation= 'sigmoid'))
+model.add(Dense(10, activation= 'relu'))
+#Layer 2
+model.add(Dense(10, activation= 'relu'))
 #Layer 2
 model.add(Dense(8, activation= 'relu'))
 #Layer 3
